@@ -19,4 +19,5 @@ To set up a centralized Prometheus monitoring solution with Prometheus Agents ru
 
 ## Step 1: Deploy Prometheus Agent in Each EKS Cluster
 Each EKS cluster runs a Prometheus Agent instead of a full Prometheus instance. The agent does not store metrics locally; it only forwards them to the central Prometheus.
+
 **1.1 Install Prometheus Agent using Helm**
